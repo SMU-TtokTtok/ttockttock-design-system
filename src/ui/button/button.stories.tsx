@@ -14,6 +14,10 @@ const meta = {
       options: ['primary', 'secondary', 'tertiary', 'surface', 'lightGray', 'none'],
       description: '버튼 스타일 변형',
     },
+    className: {
+      control: 'text',
+      description: '추가적인 클래스 이름',
+    },
     disabled: {
       control: 'boolean',
       description: '비활성화 상태',
