@@ -1,6 +1,6 @@
 {
   "name": "ttockttock-design-system",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "type": "module",
   "description": "ttockttock Design System",
   "main": "./dist/index.cjs",
