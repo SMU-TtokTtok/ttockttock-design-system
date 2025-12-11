@@ -9,7 +9,7 @@ interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   imgSize?: string;
 }
 
-export default forwardRef<HTMLInputElement, CheckboxProps>(function Checkbox(
+export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(function Checkbox(
   { variant = 'none', label, className, img, imgSize, defaultChecked, ...props }: CheckboxProps,
   ref?,
 ) {

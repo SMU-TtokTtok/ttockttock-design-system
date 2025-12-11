@@ -29,7 +29,7 @@ export const dropDownButtonStyle = styleVariants({
   },
 });
 
-export const baseButtonStyle = style({
+export const baseDropdownButtonStyle = style({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',

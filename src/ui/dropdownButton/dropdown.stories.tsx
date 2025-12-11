@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import DropDownButton from './index';
+import { DropDownButton } from './index';
 
 const meta = {
   title: 'UI/DropDownButton',
