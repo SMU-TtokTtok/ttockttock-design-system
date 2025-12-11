@@ -1,5 +1,5 @@
 import { type InputHTMLAttributes, type ReactNode } from 'react';
-import Input from '../input';
+import { Input } from '../input';
 import * as S from './searchBar.css';
 
 interface SearchBarProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'style'> {
@@ -9,7 +9,7 @@ interface SearchBarProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'st
   onClick?: () => void;
 }
 
-function SearchBar({
+export function SearchBar({
   icon,
   variant = 'primary',
   className,
@@ -28,5 +28,3 @@ function SearchBar({
     </div>
   );
 }
-
-export default SearchBar;

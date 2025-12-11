@@ -7,7 +7,7 @@ interface TagProps {
   className?: string;
 }
 
-function Tag({ variant, children, className, ...props }: PropsWithChildren<TagProps>) {
+export function Tag({ variant, children, className, ...props }: PropsWithChildren<TagProps>) {
   const classNames = `${className ?? ''} ${S.baseTagStyle} ${S.tagStyle[variant]}`;
   return (
     <div className={classNames} {...props}>
@@ -15,5 +15,3 @@ function Tag({ variant, children, className, ...props }: PropsWithChildren<TagPr
     </div>
   );
 }
-
-export default Tag;

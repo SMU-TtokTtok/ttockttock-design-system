@@ -4,7 +4,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant: keyof typeof S.buttonStyle;
 }
 
-function Button({
+export function Button({
   variant,
   children,
   className,
@@ -19,5 +19,3 @@ function Button({
     </button>
   );
 }
-
-export default Button;

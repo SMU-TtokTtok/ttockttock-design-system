@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Tag from './index';
+import { Tag } from './index';
 
 const meta = {
   title: 'UI/Tag',

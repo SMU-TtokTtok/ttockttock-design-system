@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import SearchBar from './index';
+import { SearchBar } from './index';
 import search from '@/assets/search.svg';
 
 const meta = {

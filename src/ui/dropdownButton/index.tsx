@@ -7,7 +7,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   img?: ReactNode;
 }
 
-function DropDownButton({
+export function DropDownButton({
   variant = 'default',
   children,
   className,
@@ -15,7 +15,9 @@ function DropDownButton({
   img,
   ...props
 }: PropsWithChildren<ButtonProps>) {
-  const classNames = `${className ?? ''} ${S.baseButtonStyle} ${S.dropDownButtonStyle[variant]} `;
+  const classNames = `${className ?? ''} ${S.baseDropdownButtonStyle} ${
+    S.dropDownButtonStyle[variant]
+  } `;
 
   return (
     <button type="button" className={`${classNames}`} disabled={disabled} {...props}>
@@ -24,5 +26,3 @@ function DropDownButton({
     </button>
   );
 }
-
-export default DropDownButton;
