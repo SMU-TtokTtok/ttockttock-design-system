@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes, PropsWithChildren, ReactNode } from 'react';
-import * as S from '@/ui/dropdownButton/dropdownButton.css.ts';
+import * as S from '@/ui/dropdownButton/dropdownButton.css';
 import Arrow from '@/assets/dropdown.svg';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
