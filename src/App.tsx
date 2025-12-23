@@ -2,7 +2,7 @@ import { Button } from '@/ui/button';
 import { Checkbox } from '@/ui/checkbox';
 import { DropDownButton } from '@/ui/dropdownButton';
 import dropdown from '@/assets/dropdown.svg';
-import * as S from './app.css';
+import * as S from '@/app.css';
 import { SearchBar } from '@/ui/searchBar';
 function App() {
   return (
