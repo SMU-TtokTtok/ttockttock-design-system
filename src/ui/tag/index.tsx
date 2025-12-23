@@ -1,6 +1,6 @@
 import { type PropsWithChildren } from 'react';
-import * as S from './tag.css';
-import { type TagVariant } from './tag.css';
+import * as S from '@/ui/tag/tag.css';
+import { type TagVariant } from '@/ui/tag/tag.css';
 
 interface TagProps {
   variant: TagVariant;

@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes, PropsWithChildren } from 'react';
-import * as S from './button.css';
+import * as S from '@/ui/button/button.css';
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant: keyof typeof S.buttonStyle;
 }

@@ -1,5 +1,5 @@
 import { forwardRef, type InputHTMLAttributes, type ReactNode } from 'react';
-import * as S from './checkbox.css';
+import * as S from '@/ui/checkbox/checkbox.css';
 
 interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   variant?: 'primary' | 'none';

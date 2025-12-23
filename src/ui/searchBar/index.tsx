@@ -1,6 +1,6 @@
 import { type InputHTMLAttributes, type ReactNode } from 'react';
-import { Input } from '../input';
-import * as S from './searchBar.css';
+import { Input } from '@/ui/input';
+import * as S from '@/ui/searchBar/searchBar.css';
 
 interface SearchBarProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'style'> {
   icon: ReactNode;

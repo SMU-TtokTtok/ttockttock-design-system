@@ -1,5 +1,5 @@
 import { forwardRef, type InputHTMLAttributes } from 'react';
-import * as S from './input.css';
+import * as S from '@/ui/input/input.css';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   variant?: 'primary' | 'secondary' | 'tertiary';
